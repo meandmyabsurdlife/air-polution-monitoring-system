@@ -16,3 +16,7 @@ Sistem ini merupakan *source code* prototipe sistem pemantauan polusi udara deng
 7. Jalankan *file* `GrafikSensor.ino`
 8. Matikan *firewall* untuk *public network*
 9. Buka browser, lalu ketikkan `http://localhost/grafiksensor/` untuk menjalankan web
+## Created by : Kelompok 15 - K02
+- Khafifanisa (18220056)
+- Siti Adira Ramadhani (18220094)
+- Muhammad Furqan Alfuady (18220108)
