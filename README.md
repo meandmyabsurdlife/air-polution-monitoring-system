@@ -7,15 +7,16 @@ Sistem ini merupakan *source code* prototipe sistem pemantauan polusi udara deng
 4. HTTP Web server
 5. MySQL Database (XAMPP Control Panel)
 ## Cara menjalankan program
-1. Buat *database* baru pada XAMPP dengan nama `resti`
-2. Buat tabel dengan nama `tb_co` pada database `resti`
-3. Clone *repository* ini
-4. Pindahkan folder `grafiksensor` ke *directory* `C:\xampp\htdocs`
-5. Hubungkan ESP32 yang sudah terhubung dengan sensor MQ-7 Gas Sensor dan MQ-135 Gas Sensor ke PC/laptop dengan kabel USB
-6. Ubah *value* dari `ssid`, `password`, dan `server` sesuai dengan koneksi Wi-Fi yang terhubung ke PC/laptop
-7. Jalankan *file* `GrafikSensor.ino`
+1. Buka XAMPP, tekan `start` untuk **Apache** dan **MySQL**
+2. Buat *database* baru dengan nama `resti`
+3. Buat tabel dengan nama `tb_co` pada database `resti` dengan nama kolom **id**, **co**, **co2**, dan **waktu**
+4. Clone *repository* ini
+5. Pindahkan folder `grafiksensor` ke *directory* `C:\xampp\htdocs`
+6. Hubungkan ESP32 yang sudah terhubung dengan sensor MQ-7 Gas Sensor dan MQ-135 Gas Sensor ke PC/laptop dengan kabel USB
+7. Ubah *value* dari `ssid`, `password`, dan `server` pada file `GrafikSensor.ino` sesuai dengan koneksi Wi-Fi yang terhubung ke PC/laptop
 8. Matikan *firewall* untuk *public network*
-9. Buka browser, lalu ketikkan `http://localhost/grafiksensor/` untuk menjalankan web
+9. Jalankan *file* `GrafikSensor.ino`
+10. Buka browser, lalu ketikkan `http://localhost/grafiksensor/` untuk menjalankan web
 ## Created by : Kelompok 15 - K02
 - Khafifanisa (18220056)
 - Siti Adira Ramadhani (18220094)
